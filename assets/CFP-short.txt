@@ -1,106 +1,92 @@
-﻿ComPAS 2019 - 24/28 Juin 2019 - IUT de Bayonne/LIUPPA - Université de Pau et des Pays de l’Adour - Anglet
+--== ComPAS 2019 ==-- 24/28 Juin 2019
+  IUT de Bayonne/LIUPPA  -  Université de Pau et des Pays de l’Adour - Anglet
+  https://2019.compas-conference.fr
 
-Compas est la conférence francophone en Parallélisme, Architecture et Système. 
-
-Depuis de nombreuses années, les sessions de la conférence Compas conjuguent un programme riche incluant des contributions scientifiques de qualité ainsi que des moments privilégiés pour favoriser la rencontre de chercheurs confirmés, de jeunes chercheurs et d'industriels autour des thématiques du parallélisme, de l'architecture et des systèmes. Compas permet de renforcer les liens entre équipes de recherche du monde francophone et favorise l’émergence de nouveaux sujets de recherche et collaborations. 
-Vous pouvez soumettre votre contribution à l'un des trois groupes thématiques de la conférence (architecture, parallélisme, système).
-
-Parallélisme
-- Calcul à haute performance, calcul exascale
-- Applications parallèles
-- Algorithmique et architectures parallèles
-- Algorithmique pour les plates-formes large échelle
-- Architectures multi-coeurs, architecture hétérogène CPU/GPU/FPGA/MIC
-- Ordonnancement, répartition de charge
-- Modèles de machines, modèles d’exécution et modèle de programmation
-- Langages, compilation, parallélisation automatique
-- Environnements de programmation et d’exécution parallèle
-- Prédiction et évaluation de performances
-- Réseaux d’interconnexion et communications
-- Clusters, grids, clouds et fog computing (informatique dématérialisée)
-- Gestion de données, bases de données, entrées/sorties parallèles
-- Cohérence des données en univers réparti
-- Parallélisme temps-réel
-- Propriétés self-* dans les systèmes parallèles et distribués
-- Tolérance aux pannes dans les systèmes distribués
-- Sécurité et organisations virtuelles dans les systèmes parallèles et distribués
-- Virtualisation, conteneurs
-- Gestion énergétique dans les systèmes parallèles et distribués
-
-Architecture
-- Arithmétique des ordinateurs
-- Architecture des processeurs, en particulier des multi-coeurs
-- Architectures spécialisées et applications
-- Architectures multiprocesseurs et parallèles
-- Architectures et systèmes reconfigurables ou auto-adaptatifs
-- Architectures asynchrones
-- Architecture des GPU et applications GPGPU
-- Architectures sécurisées et sécurité des architectures
-- Nouveaux paradigmes d’architectures et nouvelles technologies
-- Mémoires transactionnelles
-- Systèmes intégrés, réseaux intégrés
-- Synthèse de circuits spécialisés et programmables
-- Conception basée plate-forme
-- Prototypage rapide ou virtuel
-- Modèles et méthodes pour la conception et la simulation
-- Preuve formelle, vérification et test
-- Évaluation et mesure de performance
-- Consommation et efficacité énergétique  
-- Exécutifs temps réel parallèles
-- Virtualisation
-- Tolérance aux fautes
-- Sécurité 
-- Techniques de compilation
-
-Système
-- Aspects architecturaux de la conception de systèmes d’exploitation
-- Exploitation des architectures multi-cœur et NUMA
-- Virtualisation des ressources, conception d’hyperviseurs et gestion des machines virtuelles
-- Gestion de mémoire et des données (réplication, gestion de caches, persistence, ramasse-miettes, etc.)
-- Systèmes d’exploitation répartis, pour grappes de calculateurs, pour les grilles informatiques
-- Aspects système de l’Internet et du Web, de l’Internet des objets
-- Aspects systèmes des architectures orientées service et du Cloud Computing (couche IaaS)
-- Intergiciels
-- Systèmes pair-à-pair et autonomiques ; reconfigurabilité et adaptabilité
-- Systèmes embarqués et temps-réel
-- Informatique nomade et ubiquitaire
-- Qualité de service, gestion de l’énergie
-- Sûreté de fonctionnement, tolérance aux fautes et sécurité
-- Surveillance et analyse des systèmes
-- Evaluation de performance
-- Méthodes et outils d’administration
-- Résilience
-
-
-
-Soumission articles
-- Articles 'classiques' (20 mn de présentation) avec une longueur standard de 6 pages (références, preuves, tests, etc. en annexes à hauteur de 6 pages). 
-- Résumés long de 1500 mots maximum (10 mn de présentation) et/ou poster et/ou démo présentant des travaux préliminaires, des idées, des résultats, etc.
-
-Les soumissions se font via https://easychair.org/conferences/?conf=compas2019. 
-
-La langue de la conférence est le français. La conférence accepte également les soumissions en anglais lorsque les auteurs principaux de l'article ont une langue maternelle autre que le français.
-
-Une sélection d'articles pourront se voir proposer une parution de vulgarisation dans le monde (Interstices): http://binaire.blog.lemonde.fr/
-
-Dates importantes
-- Échéance pour la soumission des résumés longs: 15 Mars 2019
-- Échéance pour la soumission d'articles: 22 Mars 2019 
-- Échéance de proposition d'organisation d'ateliers et tutoriels: 15 mars 2019
-- Notification aux organisateurs d'ateliers/tutoriels: 22 Mars 2019 
-- Notification aux auteurs d'articles et résumés longs : 5 Mai 2019
-- Date limite d'inscription à tarif réduit: 1er Juin 2019
-- Journée ateliers et tutoriels: 24 juin 2019
-
-
-Comité d'organisation
-- Philippe Roose – Président conférence – LIUPPA
-- Laurent Gallon – LIUPPA
-- Olivier Le Goaer – LIUPPA
-- Adel Noureddine - LIUPPA
-
-Présidents de groupes thématiques
-- Emmanuel Agullo (Parallélisme)
-- Julien Sopena (Système)
-- Karine Heydemann (Architecture)
-
+=== Appel à contributions (articles et résumés) ===
+Compas est la Conférence francophone en informatique autour des thématiques du
+parallélisme, de l'architecture et des systèmes. Depuis de nombreuses années,
+Compas offre la possibilité à la communauté francophone ou travaillant en
+France sur ces thématiques d'échanger autour d'un programme riche et varié.
+Compas a pour but premier de favoriser la rencontre de chercheurs confirmés, de
+jeunes chercheurs et d'industriels. Compas permet de renforcer les liens entre
+équipes de recherche du monde francophone et favorise l’émergence de nouveaux
+sujets de recherche et collaborations, avec une emphase sur l'intégration des
+jeunes chercheurs.
+
+Compas sollicite les contributions autour de l'ensemble des thématiques de la
+conférence, disponible à cette adresse :
+
+  TODO Mettre URL avec la liste des thématiques sur le site
+
+Compas 2019 propose deux options pour la soumission de contributions, afin de
+répondre aux besoins exprimés par la communauté :
+
+- Les articles classiques feront l'objet d'une évaluation poussée par le comité
+  de programme, qui fournira des rapports détaillés. Un article classique fait
+  6 pages, auxquelles peuvent être ajoutées jusqu'à 6 pages de matériel
+  complémentaire (références, annexes, preuves détaillées, etc.). Les auteurs
+  d'articles seront invités à présenter les travaux pendant 20 minutes lors de
+  la conférence. Les articles classiques sont un moyen d'obtenir un retour
+  écrit détaillé sur des travaux et sont donc particulièrement conseillés pour
+  les doctorants ou chercheurs visant une publication ultérieure dans une
+  conférence internationale ou un journal.
+
+- Les présentations sur la base de résumé feront l'objet d'une évaluation plus
+  simple fondée sur l'adéquation thématique. Un résumé comprend au maximum 350
+  mots. Un résumé peut par exemple présenter des travaux préliminaires, un plan
+  de thèse pour un doctorant débutant, mais aussi des résultats significatifs
+  publiés dans un forum international (conférence ou journal), susceptibles
+  d'intéresser la communauté. Les présentations sur la base de résumé sont un
+  moyen de présenter des travaux lors de la conférence mais ne reçoivent pas de
+  commentaires écrits du comité de programme. Les auteurs de résumés seront
+  invités à présenter leurs travaux pendant 10 minutes (travaux préliminaire ou
+  plan de thèse) ou jusqu'à 20 minutes (résultats publiés dans un forum
+  international).
+
+*Posters*
+Tous les auteurs d'un article ou d'un résumé accepté pourront s'ils le
+souhaitent présenter un poster lors de la conférence. *Il n'y aura pas d'appel
+à poster spécifique.* Les auteurs souhaitant présenter uniquement un poster
+sont invités à soumettre un résumé et à indiquer leur préférence de ne pas
+faire de présentation orale.
+Le ou les meilleur(s) poster(s) seront primés lors de la conférence
+
+*Langue* 
+La langue de la conférence est le français. La conférence accepte les
+soumissions en anglais lorsque les auteurs principaux de l'article ont une
+langue maternelle autre que le français.
+
+*Procédure de soumission* 
+Les soumissions doivent utiliser le style LaTeX disponible sur le site de la
+conférence (en utilisant uniquement la partie abstract pour les résumés). La
+soumission se fait sur le site easychair dont le lien est le suivant :
+https://easychair.org/conferences/?conf=compas2019
+
+*Politique de publication*
+Compas n'a pas pour objectif de remplacer une publication dans une conférence
+internationale. Les articles et résumés acceptés seront mis à disposition des
+participants. Les auteurs seront invités, si ils le souhaitent, à mettre à
+disposition leur article ou résumé en accès ouvert sur HAL, dans une collection
+dédiée à la conférence. Ceci n'est pas une obligation afin de ne pas
+compromettre une publication de mêmes travaux dans un forum international.
+
+*Dates importantes*
+- Échéance pour la soumission d'articles : 8 Mars 2019
+- Échéance pour la soumission de résumés: 12 Avril 2019
+- Notification aux auteurs: 5 Mai 2019
+
+*Autres dates importantes*
+- Échéance de proposition d'organisation d'ateliers et tutoriels: 1er mars 2019
+- Date limite d'inscription à tarif réduit: 1er Juin 2019
+- Journée ateliers et tutoriels: 24 juin 2019
+
+*Comité d'organisation*
+- Philippe Roose – Président – LIUPPA
+- Laurent Gallon – LIUPPA
+- Olivier Le Goaer – LIUPPA
+- Adel Noureddine - LIUPPA
+
+*Présidents du comité de programme*
+- Emmanuel Agullo (Parallélisme)
+- Julien Sopena (Système)
+- Karine Heydemann (Architecture)
