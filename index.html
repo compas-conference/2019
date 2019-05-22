@@ -27,7 +27,6 @@
 	<!-- Montserrat for title -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
  
- 
 	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -61,7 +60,7 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      	<ul class="nav navbar-nav mu-menu navbar-right">
 			      		<li><a href="#mu-hero">Accueil</a></li>
-				        <li><a href="#mu-video">CFP</a></li><!-- Deviendra 'Programme' le moment voulu -->
+				        <li><a href="#mu-video">Programme <span class="badge badge-danger">New</span></a></li>
 				        <li><a href="#mu-schedule">Dates</a></li>
 			            <li><a href="#mu-speakers">Keynotes</a></li>
 			            <li><a href="#mu-pricing">Inscriptions</a></li>
@@ -152,8 +151,21 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="mu-video-area">
-								<h2>Voir l'appel à communication</h2> <!-- Deviendra 'Voir le programme définitif' -->
-								<a class="mu-video-play-btn" href="#"><i class="fa fa-bullhorn" aria-hidden="true"></i></a><!-- 'fa-toto' deviendra 'fa-calendar' -->
+								<h2>Voir les papiers acceptés</h2> <!-- Deviendra 'Voir le programme définitif' -->
+								<h5>En attendant le programme définitif...</h5>		
+								<a style="color: #fff;
+    font-size: 22px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 60px;
+    display: inline-block;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    margin-top: 100px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s" href="assets/Papiers-acceptes.pdf"><i class="fa fa-sticky-note" aria-hidden="true"></i></a><!-- fa-calendar -->
 							</div>
 						</div>
 					</div>
@@ -164,95 +176,7 @@
 			<div class="mu-video-content">
 				<div class="mu-video-iframe-area">
 					<a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-					<!--<p><img width="1000" src="assets/programme.png"/></p>--><!-- a décommenter -->
-					<div class="row" style="color:white">
-									<div class="col-md-4 col-sm-4 col-xs-4">
-											<h2>Parallélisme</h2>
-<ul><li>Calcul à haute performance, calcul exascale</li>
-<li>Applications parallèles</li>
-<li>Algorithmique et architectures parallèles</li>
-<li>Algorithmique pour les plates-formes large échelle</li>
-<li>Architectures multi-coeurs, architecture hétérogène CPU/GPU/FPGA/MIC</li>
-<li>Ordonnancement, répartition de charge</li>
-<li>Modèles de machines, modèles d’exécution et modèle de programmation</li>
-<li>Langages, compilation, parallélisation automatique</li>
-<li>Environnements de programmation et d’exécution parallèle</li>
-<li>Prédiction et évaluation de performances</li>
-<li>Réseaux d’interconnexion et communications</li>
-<li>Clusters, grids, clouds et fog computing (informatique dématérialisée)</li>
-<li>Gestion de données, bases de données, entrées/sorties parallèles</li>
-<li>Cohérence des données en univers réparti</li>
-<li>Parallélisme temps-réel</li>
-<li>Propriétés self-* dans les systèmes parallèles et distribués</li>
-<li>Tolérance aux pannes dans les systèmes distribués</li>
-<li>Sécurité et organisations virtuelles dans les systèmes parallèles et distribués</li>
-<li>Virtualisation, conteneurs</li>
-<li>Gestion énergétique dans les systèmes parallèles et distribués</li></ul>
-											
-									</div>
-									
-									<div class="col-md-4 col-sm-4 col-xs-4">
-								
-									<h2>Architecture</h2>
-<ul>
-<li>Arithmétique des ordinateurs</li>
-<li>Architecture des processeurs, en particulier des multi-coeurs</li>
-<li>Architectures spécialisées et applications</li>
-<li>Architectures multiprocesseurs et parallèles</li>
-<li>Architectures et systèmes reconfigurables ou auto-adaptatifs</li>
-<li>Architectures asynchrones</li>
-<li>Architecture des GPU et applications GPGPU</li>
-<li>Architectures sécurisées et sécurité des architectures</li>
-<li>Nouveaux paradigmes d’architectures et nouvelles technologies</li>
-<li>Mémoires transactionnelles</li>
-<li>Systèmes intégrés, réseaux intégrés</li>
-<li>Synthèse de circuits spécialisés et programmables</li>
-<li>Conception basée plate-forme</li>
-<li>Prototypage rapide ou virtuel</li>
-<li>Modèles et méthodes pour la conception et la simulation</li>
-<li>Preuve formelle, vérification et test</li>
-<li>Évaluation et mesure de performance</li>
-<li>Consommation et efficacité énergétique  </li>
-<li>Exécutifs temps réel parallèles</li>
-<li>Virtualisation</li>
-<li>Tolérance aux fautes</li>
-<li>Sécurité </li>
-<li>Techniques de compilation</li>
-</ul>
-											
-											
-									
-									</div>
-									
-									<div class="col-md-4 col-sm-4 col-xs-4">
-										
-										<h2>Système</h2>
-<ul>
-<li>Aspects architecturaux de la conception de systèmes d’exploitation</li>
-<li>Exploitation des architectures multi-cœur et NUMA</li>
-<li>Virtualisation des ressources, conception d’hyperviseurs et gestion des machines virtuelles</li>
-<li>Gestion de mémoire et des données (réplication, gestion de caches, persistence, ramasse-miettes, etc.)</li>
-<li>Systèmes d’exploitation répartis, pour grappes de calculateurs, pour les grilles informatiques</li>
-<li>Aspects système de l’Internet et du Web, de l’Internet des objets</li>
-<li>Aspects systèmes des architectures orientées service et du Cloud Computing (couche IaaS)</li>
-<li>Intergiciels</li>
-<li>Systèmes pair-à-pair et autonomiques ; reconfigurabilité et adaptabilité</li>
-<li>Systèmes embarqués et temps-réel</li>
-<li>Informatique nomade et ubiquitaire</li>
-<li>Qualité de service, gestion de l’énergie</li>
-<li>Sûreté de fonctionnement, tolérance aux fautes et sécurité</li>
-<li>Surveillance et analyse des systèmes</li>
-<li>Evaluation de performance</li>
-<li>Méthodes et outils d’administration</li>
-<li>Résilience</li>
-</ul>	
-											
-									
-									</div>
-
-					</div>
-					
-					<!--<p><a style="color:white" href="">Télécharger au format PDF</a></p>--><!-- a décommenter -->
+					<!--<p><img width="1000" src="assets/programme.png"/></p>-->
 				</div>
 			</div>
 			<!-- End Video content -->
